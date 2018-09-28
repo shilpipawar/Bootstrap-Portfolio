@@ -1,43 +1,17 @@
 *{
     box-sizing: border-box;
 }
-/*li {
-    float: right;
-}
 
-li {
-    float: right;
-}
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-    font-size: 20px;
-}
-
-li a {
-    display: block;
-    color:#777777;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration:navajowhite;
-}*/
-
-h1{
+#link a{
     position: fixed;
-    left:23%;
+    left:15%;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color:#4aaaa5;
     color:#ffffff;
-    font-size: 25px;
-    font-weight: bold;
-    line-height:50px;
-    width: 180px;
-    height:75px;
+    width: auto;
+    height:auto;
     text-align: center;
+    font-size: 35px;
 }
 
 h2{
@@ -46,7 +20,7 @@ h2{
     color: #4aaaa5;
     font-weight: bold;
     padding: 25px;
-    background-color:gainsboro;
+    background-color:#ffffff;
     border-block-end-width: 5px;
     
 }
@@ -55,43 +29,15 @@ p{
     line-height: 30px;
     font-size: 20px;
     text-align: justify;
-
 }
 body{  
-    height: 1000px;
+    height: 500px;
     background-image: url("../images/gravel.jpg");
     background-repeat:repeat-n;
     color: #777777;
     font-family: Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-/*#MenuStyle ul{
-    list-style-type: none;
-    list-style-position:outside;
-}*/
-
-aside 
-{
-  background:gainsboro;
-  width:35%;
-  height:35%;
-  border: 1px solid #ffffff;
-  padding:2px;
-  float:left;
-}
-
-.contents
-{
-    clear: both;
-    position: fixed;
-    left:15%;
-    padding: 30px;
-    border-radius:3px solid #7777;
-    background-image:url("../images/skyscraper.png");
-    background-repeat: repeat-n;
-    box-sizing: border-box; 
-    margin:150px;
-}
 
 .wrapper
 {
