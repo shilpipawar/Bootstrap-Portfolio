@@ -2,16 +2,16 @@
     box-sizing: border-box;
 }
 
-#link a{
-    position: fixed;
-    left:15%;
+h1{
+    position: relative;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color:#4aaaa5;
     color:#ffffff;
     width: auto;
     height:auto;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
+    left:100%;
 }
 
 h2{
@@ -19,8 +19,6 @@ h2{
     font-size: 25px;
     color: #4aaaa5;
     font-weight: bold;
-    padding: 25px;
-    background-color:#ffffff;
     border-block-end-width: 5px;
     
 }
@@ -31,7 +29,7 @@ p{
     text-align: justify;
 }
 body{  
-    height: 500px;
+    height: 1000px;
     background-image: url("../images/gravel.jpg");
     background-repeat:repeat-n;
     color: #777777;
